@@ -1,0 +1,38 @@
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+body{
+	color: white;
+	background-image: url("portfolioimages/fire.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+
+}
+
+header{
+	background-color: black;
+
+}
+
+header a{
+	color: white;
+	padding-left: 30px;
+	text-decoration: none;
+}
+
+header nav{
+	padding: 40px;
+	margin-right: 0;
+}
+
+
+
+header h1{
+	float: left;
+	width: 50%;
+}
