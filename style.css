@@ -24,6 +24,7 @@ body{
 
 header{
 	background-color: black;
+	padding-top: 20px;
 
 }
 
@@ -35,6 +36,7 @@ header a{
 
 header nav{
 	padding: 40px;
+	font-size: 30px;
 	margin-right: 0;
 }
 
@@ -43,7 +45,7 @@ header nav{
 header h1{
 	float: left;
 	width: 50%;
-	text-align: center;
+	font-size: 55px;
 }
 
 ul li{
@@ -59,5 +61,21 @@ section p{
 
 section div{
 	width: 25%;
+}
+
+footer{
+	background-color: black;
+}
+
+footer a{
+	color: white;
+	text-decoration: none;
+}
+
+footer div{
+	text-align: center;
+	height: 75px;
+	font-size: 25px;
+	padding-top: 20px;
 }
 
