@@ -4,6 +4,13 @@
   clear: both;
 }
 
+html {
+ box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
 
 body{
 	color: white;
@@ -35,4 +42,21 @@ header nav{
 header h1{
 	float: left;
 	width: 50%;
+	text-align: center;
 }
+
+ul li{
+	list-style: none;
+	float: left;
+	width: 33%;
+}
+
+section p{
+	float: left;
+	width: 75%;
+}
+
+section div{
+	width: 25%;
+}
+
