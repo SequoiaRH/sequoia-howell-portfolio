@@ -48,11 +48,7 @@ header h1{
 	font-size: 55px;
 }
 
-ul li{
-	list-style: none;
-	float: left;
-	width: 33%;
-}
+
 
 section p{
 	float: left;
@@ -65,6 +61,7 @@ section div{
 
 footer{
 	background-color: black;
+	margin-bottom: 0;
 }
 
 footer a{
@@ -74,8 +71,12 @@ footer a{
 
 footer div{
 	text-align: center;
-	height: 75px;
 	font-size: 25px;
 	padding-top: 20px;
+}
+
+.column{
+	float: left;
+	width: 33%;
 }
 
