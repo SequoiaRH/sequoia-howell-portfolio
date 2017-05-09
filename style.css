@@ -13,7 +13,7 @@ html {
 }
 
 body{
-	color: white;
+	color: #fff;
 	font-family:'Droid Sans', sans-serif;
 	background-image: url("portfolioimages/fire.jpg");
 	background-repeat: no-repeat;
@@ -23,7 +23,7 @@ body{
 }
 
 header{
-	background-color: black;
+	background-color: #000;
 	padding-top: 20px;
 
 }
@@ -49,19 +49,8 @@ header h1{
 }
 
 
-
-section p{
-	float: left;
-	width: 75%;
-}
-
-section div{
-	width: 25%;
-}
-
 footer{
 	background-color: black;
-	margin-bottom: 0;
 }
 
 footer a{
@@ -72,11 +61,30 @@ footer a{
 footer div{
 	text-align: center;
 	font-size: 25px;
-	padding-top: 20px;
+	padding: 50px;
+}
+
+section p{
+	line-height: 30px;
+	padding-right: 10%;
+} 
+
+section div img{
+	margin: 10px;
 }
 
 .column{
 	float: left;
 	width: 33%;
+}
+
+.container{
+	max-width: 600px;
+	margin: auto;
+}
+
+.portcolumn{
+	float: left;
+	width: 40%;
 }
 
