@@ -5,13 +5,15 @@
 		<link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet" type="text/css">
 
 		<link rel="stylesheet" href="normalize.css">
+		<link rel="stylesheet" type="text/css" href="slick.css">
+		<link rel="stylesheet" type="text/css" href="slick-theme.css">
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 
 	<body>
 
-		<header class="clearfix">
-
+		<header>
+			<div class="clearfix container">
 				<h1 class="templogo">
 					Sequoia
 				</h1>
@@ -21,32 +23,35 @@
 					<a href="contact.html" target="_blank">Contact Me</a>
 					<a href="https://github.com/sequoiarh" target="_blank">GitHub</a>
 				</nav>
-
+			</div>
 		</header>
+		
 		<div class="container">
-		<p>
-			Check out projects I've completed below or click the "GitHub" link to see what I've been up to!
-		</p>
+			<p class="blurb">
+				Check out projects I've completed!
+			</p>
 
-	<div class="clearfix">
-		<img src="portfolioimages/relaxrscreenshot.jpg" alt="relaxr" class="column">
-		<img src="portfolioimages/la.jpg" alt="citipix" class="column">
-		<img src="portfolioimages/homework.jpg" alt="homework portfolio" class="column">
-	</div>
+			<div class="slider">
+				<img src="portfolioimages/relaxrscreenshot.jpg" alt="relaxr" class="myslide">
+				<img src="portfolioimages/la.jpg" alt="citipix" class="myslide">
+				<img src="portfolioimages/homework.jpg" alt="homework portfolio" class="myslide">
+			</div>
 
-	</div>
-		
-
-	<footer>
-		
-		<div>
-			<a href="contact.html" target="_blank">Contact Me</a>
 		</div>
+		
 
-	</footer>
+		<footer>
+		
+			<div>
+				<a href="contact.html" target="_blank">Contact Me</a>
+			</div>
 
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script src="portfolio.js"></script>
+		</footer>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="portfolio.js"></script>
+		<script src="slick.min.js"></script>
+
 
 	</body>
 	</html>

@@ -19,7 +19,9 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin: 0;
-
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
 }
 
 header{
@@ -38,13 +40,13 @@ header nav{
 	padding: 40px;
 	font-size: 30px;
 	margin-right: 0;
+	float: right;
 }
 
 
 
 header h1{
 	float: left;
-	width: 50%;
 	font-size: 55px;
 }
 
@@ -71,20 +73,58 @@ section p{
 
 section div img{
 	margin: 10px;
+	width: 330px;
+	height: auto;
+	max-width: 100%;
 }
 
-.column{
+/*.column{
 	float: left;
 	width: 33%;
-}
+}*/
 
 .container{
-	max-width: 600px;
+	max-width: 980px;
 	margin: auto;
 }
 
 .portcolumn{
 	float: left;
-	width: 40%;
+	width: 50%;
 }
 
+.blurb{
+	float: left;
+	width: 25%;
+	font-size: 24px;
+	padding-right: 20px;
+	text-align: justify;
+	line-height: 50px;
+}
+
+.slick-prev, .slick-next {
+    z-index: 10;
+}
+
+.slick-prev {
+    /*left: 25px;*/
+}
+
+.slick-prev:before {
+    content: "<";
+}
+
+.slick-next {
+    /*right: 25px;*/
+}
+
+.slick-next:before {
+    content: ">";
+}
+
+.slider {
+	float: left;
+	width: 75%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
