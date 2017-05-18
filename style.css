@@ -78,10 +78,15 @@ section div img{
 	max-width: 100%;
 }
 
-/*.column{
+section{
+	border-bottom: solid black 5px;
+	padding-bottom: 20px;
+} 
+
+.column{
 	float: left;
 	width: 33%;
-}*/
+}
 
 .container{
 	max-width: 980px;
@@ -99,7 +104,7 @@ section div img{
 	font-size: 24px;
 	padding-right: 20px;
 	text-align: justify;
-	line-height: 50px;
+	line-height: 40px;
 }
 
 .slick-prev, .slick-next {
@@ -128,3 +133,9 @@ section div img{
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+
+.hover{
+	text-decoration: underline;
+}
+
+
