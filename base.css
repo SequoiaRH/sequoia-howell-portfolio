@@ -8,6 +8,18 @@ html {
   box-sizing: inherit;
 }
 
+body{
+	color: #fff;
+	font-family:'Droid Sans', sans-serif;
+	background-image: url("portfolioimages/fire.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
 header h1{
 	float: none;
 	font-size: 55px;
@@ -25,33 +37,43 @@ header a{
 	text-align: center;
 }
 
-.column{
+section{
+	border-bottom: solid #fff 5px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+} 
+
+/*.column{
 	float: none;
 	width: 100%;
-}
+}*/
 .portcolumn{
 	float: none;
-	width: 100%;
-	font-size: 14px;
+	/*width: 100%;*/
+	font-size: 12px;
 }
 
 .blurb{
 	float: none;
-	font-size: 24px;
+	font-size: 14px;
 	padding-right: 20px;
 	text-align: justify;
 }
 
-body{
-	color: #fff;
-	font-family:'Droid Sans', sans-serif;
-	background-image: url("portfolioimages/fire.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	margin: 0;
-	min-height: 100vh;
-	display: flex;
-	flex-direction: column;
+.slick-prev {
+    /*left: 25px;*/
+}
+
+.slick-prev:before {
+    display: none;
+}
+
+.slick-next {
+    /*right: 25px;*/
+}
+
+.slick-next:before {
+    display: none;
 }
 
 footer a{
@@ -60,10 +82,15 @@ footer a{
 }
 
 section div img{
-	margin: 10px;
-	width: 330px;
+	position: relative;
+	right: -10px;
+	/*margin: auto;*/
 	height: auto;
 	max-width: 100%;
+}
+
+form{
+	font-size: 35px;
 }
 
 }

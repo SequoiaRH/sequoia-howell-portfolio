@@ -2,19 +2,33 @@
 <html>
 	<head>
 		<title>Contact Me|Sequoia</title>
-		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="normalize.css">
+		<link rel="stylesheet" type="text/css" href="base.css">
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 
 	<body>
+		<header>
+			<h1>
+			Contact Page
+			<h1>
+		</header>
 		<form>
 
 		<fieldset>
 			<legend>Tell Me Your Info:</legend>
-			First name:<br>
-			<input type="text" name="firstname" value=""><br>
-			Last name:<br>
-			<input type="text" name="lastname"	value="">
+			First name:
+			<input type="text" name="firstname" value="" required>
+			Last name:
+			<input type="text" name="lastname"	value="" required><br><br>
+			Street
+			<input type="text" name="street" value="" required>
+			City
+			<input type="text" name="city" value=""> 
+			State
+			<input type="text" name="state" value""><br><br>
+			<textarea placeholder="Give Me The Deets!" cols="50" rows="20" maxlength="300"></textarea>
+			<input type="submit">
 		</fieldset>
 
 		</form>
