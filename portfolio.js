@@ -10,8 +10,17 @@ $('.slider').slick({
 
 $("a").hover(
         function() { $(this).addClass("hover"); },
-        function() { $(this).removeClass("hover"); }
-    );
+        function() { $(this).removeClass("hover"); 
+    });
+
+$('img').hover(function() {
+	$('img').removeClass('border');
+	$(this).addClass('border');
+});
+
+$('.note').click(function() {
+	$('fieldset').html('Thanks!')
+});
 
 });
 

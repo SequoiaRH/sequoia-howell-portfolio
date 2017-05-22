@@ -19,6 +19,7 @@ body{
 	font-family:'Droid Sans', sans-serif;
 	background-image: url("portfolioimages/fire.jpg");
 	background-repeat: no-repeat;
+	background-attachment: fixed;
 	background-size: cover;
 	margin: 0;
 	min-height: 100vh;
@@ -30,7 +31,6 @@ body{
 header a{
 	color: white;
 	padding-left: 30px;
-	text-decoration: none;
 	display: inline;
 }
 
@@ -127,6 +127,11 @@ input{
 
 .hover{
 	text-decoration: underline;
+}
+
+.border{
+	border: solid;
+	border-color: black;
 }
 
 
