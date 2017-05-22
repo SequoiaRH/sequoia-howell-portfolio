@@ -21,7 +21,6 @@ body{
 }
 
 header{
-	/*background-color: #000;*/
 	border-bottom: solid;
 	padding-top: 20px;
 
@@ -57,13 +56,8 @@ footer div{
 	padding: 50px;
 }
 
-/*.column{
-	float: none;
-	width: 100%;
-}*/
 .portcolumn{
 	float: none;
-	/*width: 100%;*/
 	font-size: 18px;
 	text-align: center;
 }
@@ -75,16 +69,8 @@ footer div{
 	text-align: center;
 }
 
-.slick-prev {
-    /*left: 25px;*/
-}
-
 .slick-prev:before {
     display: none;
-}
-
-.slick-next {
-    /*right: 25px;*/
 }
 
 .slick-next:before {
@@ -99,7 +85,6 @@ footer a{
 section div img{
 	position: relative;
 	right: -10px;
-	/*margin: auto;*/
 	height: auto;
 	max-width: 100%;
 }

@@ -6,6 +6,7 @@ $('.slider').slick({
       speed: 300,
       fade: true,
       slidesToShow: 1,
+      swipe: true,
 });
 
 $("a").hover(
@@ -21,6 +22,7 @@ $('img').hover(function() {
 $('.note').click(function() {
 	$('fieldset').html('Thanks!')
 });
+
 
 });
 

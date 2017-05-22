@@ -27,7 +27,6 @@ body{
 	flex-direction: column;
 }
 
-
 header a{
 	color: white;
 	padding-left: 30px;
@@ -41,16 +40,9 @@ header nav{
 	float: right;
 }
 
-
-
 header h1{
 	float: left;
 	font-size: 55px;
-}
-
-
-footer{
-	/*background-color: black;*/
 }
 
 section p{
@@ -87,11 +79,7 @@ input{
 }
 
 .blurb{
-	/*float: left;
-	width: 25%;*/
 	font-size: 24px;
-	/*padding-right: 20px;
-	text-align: justify;*/
 	line-height: 40px;
 }
 
@@ -99,18 +87,11 @@ input{
     z-index: 10;
 }
 
-.slick-prev {
-    /*left: 25px;*/
-}
-
 .slick-prev:before {
 	display: block;
     content: "<";
 }
 
-.slick-next {
-    /*right: 25px;*/
-}
 
 .slick-next:before {
 	display: block;
@@ -118,8 +99,6 @@ input{
 }
 
 .slider {
-	/*float: left;
-	width: 75%;*/
 	padding-top: 10px;
 	padding-bottom: 10px;
 	max-width: 100%;
